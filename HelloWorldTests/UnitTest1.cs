@@ -12,5 +12,11 @@ namespace HelloWorldTests
         {
             Assert.AreEqual("Hello World", Program.CreateMessage());
         }
+
+        [TestMethod]
+        public void AddTest1()
+        {
+            Assert.AreEqual(10, Program.AddNumbers(5, 5));
+        }
     }
 }
